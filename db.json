@@ -1,0 +1,64 @@
+{
+    "items":[
+        {
+            "id" :1,
+            "name":"Pratidinam"
+        },
+        {
+            "id" :2,
+
+            "name":"Hotel Raghavendra Prasana"
+        },
+        {
+            "id" :3,
+
+            "name":"Kenz Karam"
+        },
+        {
+            "id" :4,
+
+            "name" :"The Icecream Zone"
+        },
+        {
+            "id" :5,
+
+            "name":"Annakuta"
+        },
+        {
+            "id" :6,
+
+            "name":"Kulfi shulfi"
+        },
+        {
+            "id" :7,
+
+            "name":"Dil Tiffins"
+        },
+        {
+            "id" :8,
+
+            "name":"Natural Ice Creams"
+        },
+        {
+            "id" :9,
+
+            "name":"Artinci"
+        },
+        {
+            "id" :10,
+
+            "name":"Barista"
+        },
+        {
+            "id" :11,
+
+            "name":"Kaapi Kendra"
+
+        },
+        {
+            "id" :12,
+
+            "name":"The Betal Leaf Co"
+        }
+    ]
+}

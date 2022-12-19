@@ -1,0 +1,16 @@
+#Navbar{
+    border:1px solid black;
+    height:50px;
+}
+.nav{
+    margin-left:15%;
+    text-decoration: none;
+    font-size: 25px;;
+    color:red;
+}
+.inputBoxes{
+    height:30px;
+    margin-top: 10px;;
+    width:40%;
+
+}
