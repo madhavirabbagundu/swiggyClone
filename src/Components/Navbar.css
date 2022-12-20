@@ -25,3 +25,13 @@
     padding:2%;
     
 }
+#items{
+    display: grid;
+    margin-top: 2%;;
+    grid-template-columns: repeat(4,1fr);
+    gap:4%;
+}
+img{
+    width:90%;
+
+}

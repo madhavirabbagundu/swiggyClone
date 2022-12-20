@@ -8,6 +8,7 @@ return(
     <>
     {/* <div>this is Navbar</div>  */}
     <div id = "Navbar">
+        <Link className="nav" to = "/">Home</Link>
     <Link className="nav" to = "Search">Search</Link>
 
     <Link className = "nav" to= "SignIn">SignIn</Link>

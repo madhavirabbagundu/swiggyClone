@@ -6,11 +6,14 @@ import { Route, Routes} from 'react-router-dom'
 import { Cart } from './Components/Cart';
 import { Search } from './Components/Search';
 import { Login } from './Components/Login';
+import { Home } from './Components/Home'
 function App() {
   return (
     <div className="App">
     < Navbar />
+    
     <Routes> 
+      <Route path = "/" element = {<Home/>}>Home</Route>
       <Route path = "/SignIn" element = {<SignIn/>}>SignIn</Route>
       {/* <Route path = "/Login/SignIn" element = {<SignIn />}>SignIn</Route> */}
       <Route path = "/Cart" element = {<Cart />}>Cart</Route>
