@@ -14,3 +14,14 @@
     width:40%;
 
 }
+#searchData{
+    /* border:1px solid black; */
+    margin-top:1%;
+    width:40%;
+    padding-left: 30%;;
+}
+.searchitem{
+    border:1px solid black;
+    padding:2%;
+    
+}

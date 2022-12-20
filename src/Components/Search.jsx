@@ -1,8 +1,9 @@
 import React from "react";
+import "./Navbar.css"
+
 const Search = ()=>{
     const [item,setItem] = React.useState([])
-    const [itemData,setItemData] = React.useState({
-    text : ""})
+    const [itemData,setItemData] = React.useState('')
    React.useEffect (() =>{
     fetch(`http://localhost:3000/items`)
     // fetch(`http://localhost:3000/movies`)
@@ -12,10 +13,11 @@ const Search = ()=>{
    },[])
 
     const handleChage = (e)=>{
-        setItem(e.target.value);
+        setItemData(e.target.value);
 
     }
     console.log(item)
+    // const {text} = itemData;
 return(
     <>
     <div>
@@ -27,12 +29,13 @@ return(
         placeholder="Enter the item"/>
     </div>
 
-    <div>
-       {
-        item.filter(data=>data.name.includes(itemData)).map(data=>{
-            <div>{data.name}</div>
-        
-       })}
+    <div id = "searchData">
+      
+        {
+        item.filter(data => data.name.toLowerCase().includes(itemData.toLowerCase())).map((data)=>(
+            <div class = "searchitem">{data.name}</div>
+        ))
+        } 
     </div>
     </>
 )
