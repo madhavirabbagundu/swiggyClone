@@ -4,13 +4,13 @@
             "id" :1,
             "name":"Pratidinam",
             "Rate":"4.2",
-            "Prie":"Rs:680",
+            "Price":680,
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/hpp3mkis0pmjvnvqt8pl"
         },
         {
             "id" :2,
             "Rate":"4.4",
-            "Prie":"Rs:1000",
+            "Price":1000,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/slheenytwb3iaypqf4yd",
             "name":"Hotel Raghavendra Prasana"
@@ -18,7 +18,7 @@
         {
             "id" :3,
             "Rate":"4.2",
-            "Prie":"Rs:270",
+            "Price":270,
 
           "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/317be577c714dd1397aa00d6b7e64cfe",
             "name":"Kenz Karam"
@@ -26,7 +26,7 @@
         {
             "id" :4,
             "Rate":"4.0",
-            "Prie":"Rs:490",
+            "Price":490,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/l5sjr78yn3vhopcvqgfb",
             "name" :"The Icecream Zone"
@@ -34,7 +34,7 @@
         {
             "id" :5,
             "Rate":"4.3",
-            "Prie":"Rs:190",
+            "Price":190,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/javjanwz6ryf45hcsjgy",
             "name":"Annakuta"
@@ -42,7 +42,7 @@
         {
             "id" :6,
             "Rate":"4.1",
-            "Prie":"Rs:900",
+            "Price":900,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wet9zrjusmdtkk16jlrz",
             "name":"Kulfi shulfi"
@@ -50,7 +50,7 @@
         {
             "id" :7,
             "Rate":"4.5",
-            "Prie":"Rs:430",
+            "Price":430,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/cpbq1uck4icuhdqvuwb0",
             "name":"Dil Tiffins"
@@ -58,7 +58,7 @@
         {
             "id" :8,
             "Rate":"4.2",
-            "Prie":"Rs:350",
+            "Price":350,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lhup2ew1evf3espl5fgs",
 
@@ -67,7 +67,7 @@
         {
             "id" :9,
             "Rate":"4.0",
-            "Prie":"Rs:100",
+            "Price":100,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/edkut9gmhjqq6urnnmwv",
 
@@ -76,7 +76,7 @@
         {
             "id" :10,
             "Rate":"4.0",
-            "Prie":"Rs:500",
+            "Price":500,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/usvu7jwfx9t47z3y3lkh",
 
@@ -85,7 +85,7 @@
         {
             "id" :11,
             "Rate":"4.1",
-            "Prie":"Rs:200",
+            "Price":200,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ywdpqvhsmaru4uef8szm",
 
@@ -95,7 +95,7 @@
         {
             "id" :12,
             "Rate":"4.3",
-            "Prie":"Rs:300",
+            "Price":300,
 
             "img":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/c9elzh8awx7jcx70cood",
 
