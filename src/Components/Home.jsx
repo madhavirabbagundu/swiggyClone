@@ -55,11 +55,9 @@ return(
                 <h3>{item.name}</h3>
                 <p>{item.Price}</p>
                 <p style = {{color:'blue'}}>Rate:{item.Rate}</p>
-                
                 </div>
             ))
-        }
-    
+            }
     </div>
     </>
 )
