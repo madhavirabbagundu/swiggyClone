@@ -1,7 +1,10 @@
 import React from "react";
 import "./Navbar.css"
-
+import { useContext } from "react";
+import { CartContext } from './CartContext'
+import { Link } from "react-router-dom";
 const Home = () =>{
+    const {handleCartUpdate} = useContext(CartContext)
     const[data,setData] = React.useState([])
 
     React.useEffect (()=>{
@@ -10,7 +13,7 @@ const Home = () =>{
    .then((json)=>setData(json))
 
     },[])
-    
+
 
     const handlesort = (e)=>{
        console.log(e.target.value)
@@ -55,6 +58,7 @@ return(
                 <h3>{item.name}</h3>
                 <p>{item.Price}</p>
                 <p style = {{color:'blue'}}>Rate:{item.Rate}</p>
+               <Link to = {`/cart/${item.id}`}><button onClick={()=>{handleCartUpdate(1)}}>Buy Now!...</button></Link>
                 </div>
             ))
             }

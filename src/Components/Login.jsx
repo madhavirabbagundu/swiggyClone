@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 const Login = () =>{
     const [login,SetLogin] = React.useState({
         number:"",
@@ -13,16 +14,17 @@ const Login = () =>{
         e.preventDefault()
     }
     const {number} = login;
+    console.log(login)
     return(
         <>
         <h1>
             Login
         </h1>
-        <div>
-       <Link style = {{color:'orangered'}} to = "SignIn">or create an account</Link>
+        <div id = "loginPage">
+       <Link style = {{color:'blue'}} to = "/SignIn">or create an account</Link>
         </div>
 
-        <div>
+        <div id = 'loginPage'>
             <form onSubmit={handleSubmit}>
                 <input type = "number"
                 placeholder = "enter your name"
@@ -32,8 +34,8 @@ const Login = () =>{
 
                 onChange={handleChange}/><br/>
                 <input type = "submit"
-                    className = "inputBoxes"
-                    value = "submit"/>
+                    className = "submitBox"
+                    value = "Login"/>
             </form>
         </div>
         </>

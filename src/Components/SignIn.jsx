@@ -24,12 +24,12 @@ return(
     <h1>
          Sign Up
     </h1>
-    <div style = {{color:'red'}}>    
-    <Link to = "Login">or Login to your account</Link>  
+    <div id = "signinPage">    
+    <Link style = {{color:'blue'}} to = "/Login">or Login to your account</Link>  
     </div>
 
 
-    <div>
+    <div id = "signinPage">
     <form onSubmit = {handleSubmit}>
         <div>
     <input type = "number"
@@ -62,8 +62,7 @@ return(
 <div>
     <input type = "submit"
     value = "submit"
-    className = "inputBoxes"
-
+    className = "submitBox"
     />
     </div>
     </form>
