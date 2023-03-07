@@ -9,17 +9,15 @@ const Navbar = ()=>{
 const {cartCount} = useContext(CartContext)
 return(
     <>
-    <div id = "Navbar">
-     <Link className="nav" to = "/">Home</Link>
-    <Link className="nav" to = "Search">Search</Link>
-    <Link className = "nav" to= "SignIn">SignIn</Link>
-    {/* <Link className = "nav" to = "Login">Login</Link> */}
-    {/* <Link  to = "Search">Search</Link> */}
-    <Link className = "nav" to = "Cart">cart:{cartCount}</Link>
-    
-    <div>Cart:{cartCount}</div>
+    <div class = "Navbar">
+   {/* <div id = 'logo'><Link to = "/"><img src = 'https://gumlet.assettype.com/afaqs%2F2020-12%2F71dc202e-f873-4598-baa8-b9236beacfd2%2FSwiggy_PNG_Logo.png?rect=0%2C242%2C2048%2C1152&w=1200&auto=format%2Ccompress&ogImage=true'/></Link></div> */}
+   
+   <div id = "navName">
+   <div><Link className="nav" to = "Search">SEARCH</Link></div>
+    <div><Link className = "nav" to= "SignIn">SIGNIN</Link></div>
+   <div><Link className = "nav1" to = "Cart">CART:{cartCount}</Link></div>
     </div>
-    {/* <SignIn /> */}
+    </div>
     </>
 )
 }

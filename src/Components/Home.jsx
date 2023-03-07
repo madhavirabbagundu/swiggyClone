@@ -54,7 +54,7 @@ return(
             data.map((item)=>(
                
                <div key = {item.id} id = "itemsData">
-                <img src = {item.img} alt = ""/>
+                <img className = 'itemImages'src = {item.img} alt = ""/>
                 <h3>{item.name}</h3>
                 <p>{item.Price}</p>
                 <p style = {{color:'blue'}}>Rate:{item.Rate}</p>

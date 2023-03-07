@@ -24,12 +24,12 @@ return(
         <h1>Search Here</h1>
         <input type = "text"
         value = {itemData}
-        className = "inputBoxes"
+        className = "searchBoxes"
         onChange={handleChage}
         placeholder="Enter the item"/>
     </div>
 
-    <div id = "searchData">
+    <div className = "searchData">
       
         {
         item.filter(data => data.name.toLowerCase().includes(itemData.toLowerCase())).map((data)=>(

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+
 
 const SignIn = () =>{
     const [data, setData] = React.useState({
@@ -8,6 +10,7 @@ const SignIn = () =>{
         name:"",
         email:""
     })
+    const navigate = useNavigate();
 
     const handleChange = (e)=>{
         const {name,value} = e.target;
@@ -16,6 +19,7 @@ const SignIn = () =>{
 
     const handleSubmit = (e1)=>{
         e1.preventDefault();
+        navigate('/')
     }
 console.log(data)
     const {name,email,number} = data;
@@ -36,6 +40,7 @@ return(
     placeholder='Enter your phone number'
     name = "number"
     value = {number}
+    required
     className = "inputBoxes"
     onChange = {handleChange}
     />
@@ -44,6 +49,7 @@ return(
     <input type = "text"
     placeholder='Enter your name'
     name  = "name"
+    required
     className = "inputBoxes"
 
     value = {name}
@@ -54,6 +60,7 @@ return(
     <input type = "email"
     placeholder='enter your email'
     name = "email"
+    required
     className = "inputBoxes"
 
     value={email}
